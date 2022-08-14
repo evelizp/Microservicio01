@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: micro01
+  cloud:
+    config:
+      uri: http://localhost:8084
+      username: root
+      password: s3cr3t
+  data:
+    mongodb:
+      database: demo_Credit
+      uri: mongodb://localhost:27017
+
